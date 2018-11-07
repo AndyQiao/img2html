@@ -24,7 +24,7 @@ trans = Trans(args.size,
               args.title,
               args.font
 )
-trans.trans(args.input, args.char)
+trans.trans(args.input, args.char, args.output)
 
 
 

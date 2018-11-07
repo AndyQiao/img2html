@@ -42,7 +42,7 @@ class Trans():
         self.title=title
         self.font_family=font_family
 
-    def trans(self, source, char):
+    def trans(self, source, char, output):
         image = Image.open(source)
 
         width, height = image.size
@@ -65,7 +65,7 @@ class Trans():
                 imgHtmlRow.append(imgHtmlItem)
             imgHtml.append(imgHtmlRow)
 
-        self.render('D:\\code\\trans_img2html\\after.html', imgHtml)
+        self.render(output, imgHtml)
     
     def average(self, pixels):
         r,g,b=0,0,0
