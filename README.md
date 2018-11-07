@@ -1,4 +1,4 @@
-#python模块img2html
+# python模块img2html
 
 ## 特性
 - 支持将图片文件转换成字符表示的html文件
@@ -6,4 +6,4 @@
 - 支持背景颜色自定义
 
 ## 其它
-- 基于大神# [xlzd](https://github.com/xlzd)的实现
+- 基于大神[xlzd](https://github.com/xlzd)的实现
